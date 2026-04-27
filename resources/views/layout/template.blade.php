@@ -7,22 +7,22 @@
     <link href="/bootstrap/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-success" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg" style="background-color: #a2d2ff;" data-bs-theme="white">
         <div class="container">
-          <a class="navbar-brand" href="/">tiMovie</a>
+          <a class="navbar-brand text-white" href="/">tiMovie</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
+                <a class="nav-link active text-white" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Watchlist</a>
+                <a class="nav-link text-white" href="#">Watchlist</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/movies/create">Input Movie</a>
+                <a class="nav-link text-white" href="/movies/create">Input Movie</a>
               </li>
             </ul>
             <form action="/" class="d-flex" role="search">
@@ -37,8 +37,8 @@
         @yield('content')
       </div>
 
-      <footer class="bg-success text-center text-white py-2">
-        Copyright &copy; 2023 by Yori Adi Atma
+      <footer class="bg-primary      text-center text-white py-2">
+        Copyright &copy; 2026 by Vanisa Firsy
       </footer>
 
     <script src="/bootstrap/bootstrap.bundle.min.js"></script>

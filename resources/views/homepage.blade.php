@@ -7,10 +7,10 @@
 @if (session('success'))
     <div class="alert alert-success">
         {{ session('success') }}
-    </div>    
+    </div>
 @endif
 
-<h1>Popular Movie</h1>
+<h1 text-primary>Popular Movie</h1>
 <div class="row">
     @foreach ($movies as $movie)
     <div class="col-lg-6">
